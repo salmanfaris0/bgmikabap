@@ -43,7 +43,7 @@ def run_spike():
     threads = data.get("threads")
 
     if not (ip and port and duration and packet_size and threads):
-        return jsonify({"error": "Missing required parameters (ip, port, time, packet_size, threads)"}), 400
+        return jsonify({"error": "Missing required parameters (ip, port, time, packet_size, threads)"}), 900
 
     try:
       
